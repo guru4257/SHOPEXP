@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vetpro</title>
+	<link rel="stylesheet" type="text/css" href="veterinary.css">
+</head>
+<body>
+	
+	<div class="full-page">
+		<div class="navbar">
+		<div>
+		<a href="#">VETPRO</a>
+	</div>
+	<nav>
+		
+		<ul id="Menubar">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">SERVICES</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT US</a></li>
+			<li><button class='loginbtn'
+				onclick="document.getElementaryById('login-form').style.display='block'"
+				style="width:auto;">Login</button></li>
+		</ul>
+
+	</nav>
+</div>
+<div id="login-form"class='log-in-page'>
+<div class='form-box'>
+	<div class='button-box'>
+		<div id='btn'></div>
+		<button
+		type='button'onclick="log in()"class='toggle-btn'>Log In</button>
+		<button
+		type='button'onclick='register()'class='toggle-btn'>Register</button>
+	</div>
+	<form id='log in'class='input-group-login'>
+		<input type="text"class='input-field' placeholder="Email Id" required>
+		<input type="password"class='input-field' placeholder="Enter passwoerd"required>
+		<input type="checkbox"class='check-box'><span>Remember Password</span>
+		<button type='submit'class=submit-btn>Log in</button>
+	</form>
+	<form id='regidter' class=input-group-register>
+		<input type="text" class='input-field' placeholder="First Name" required>
+		<input type="text" class='input-field' placeholder="Last Name"required>
+		<input type="email" class='input-field' placeholder="Email Id"required>
+		<input type="password" class=input-field placeholder="password"required>
+		<input type="password" class='input-field' placeholder="confirm password"required>
+		<input type="chexkbox" class='check-box'><span>I agree to terms and conditions</span>
+		<button type="submit" class='submit-btn'>Register</button>
+	</form>
+</div>	
+</div>
+</div>
+	
+</body>
+</html>

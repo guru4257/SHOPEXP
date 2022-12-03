@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopExp</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- start #header -->
+        <header id="header">
+            <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+                <p class="font-rale font-size-12 text-black-50 m-0"></p>
+                <div class="font-rale font-size-14">
+                    <a href="login.html" class="px-3 border-right border-left text-dark">Login</a>
+                    <a href="#" class="px-3 border-right text-dark">Whishlist (0)</a>
+                </div>
+            </div>
+
+            <!-- Primary Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                <a class="navbar-brand" href="#">ShopExp</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="product.html">Products<i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a  class="nav-link" href="main.php">Search</a>
+                      </li>
+                      <!--<form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                       <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>-->
+                      
+                  </ul>
+                  <form action="#" class="font-size-14 font-rale">
+                      <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                      </a>
+                  </form><br><br>
+                     <!--<form class="example" action="action_page.php">
+                      <input type="text" placeholder="Search.." name="search">
+                     <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>-->     
+                </div>
+              </nav>
+               <!-- !Primary Navigation -->
+
+        </header>
+    <!-- !start #header -->
+
+    <!-- start #main-site -->
+        <main id="main-site">
+
+          <!-- Owl-carousel -->
+            <section id="banner-area" >
+              <div class="owl-carousel owl-theme" >
+                  <div class="item" >
+                    <img src="images/Iphone banner.jpg" alt="Banner1" height="500px" >
+                  </div>
+                  <div class="item">
+                    <img src="images/Banner2.jpg" alt="Banner2" height="500px">
+                  </div>
+                  <div class="item">
+                    <img src="images/banner33.webp" alt="Banner3" height="500px">
+                  </div>
+              </div>
+            </section>
+          <!-- !Owl-carousel -->
+
+          <!-- Top Sale -->
+          <section id="top-sale">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-40">MOBILES</h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="images/samsung galaxy m31.jpeg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Samsung Galaxy m31</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        (Ocean Blue,8GBRAM,128GB)
+                        <div class="price py-2">
+                          <span>1)MRP:21,999</span><br>
+                          <span>2)MRP:19,999</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/Samsung-Galaxy-Ocean-128GB-Storage/dp/B07HG8S7KP#'";>1)Buy AMAZON</button><br><br>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/samsung-galaxy-m31-space-black-128-gb/p/itmed6043337ac0e?pid=MOBFUYQTCWZVMGEK&lid=LSTMOBFUYQTCWZVMGEKKWQKSC&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&sattr[]=ram&st=ram'">2)Buy FLIPCART</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="images/Realme Narzo30.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Realme Narzo 30</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        (Racingsilver,6GBRAM,128GB)
+                        <div class="price py-2">
+                          <span>1)MRP:13,949</span><br>
+                          <span>2)MRP:15,599</span>
+                        </div>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/realme-narzo-Racing-128GB-Storage/dp/B099SJHHQL#'">1)Buy AMAZON</button><br><br>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/realme-narzo-30-racing-blue-128-gb/p/itm957dacbc8270c?pid=MOBG3W3GSPZ2S3DY&lid=LSTMOBG3W3GSPZ2S3DY5CPSLS&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&sattr[]=ram&st=storage'">2)Buy FLIPCART</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="images/pocox2.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>poco X2</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        (Phoenix Red,6GBRAM,128GB)
+                        <div class="price py-2">
+                          <span>1)MRP:18,999</span><br>
+                          <span>2)MRP:15,999</span>
+                        </div>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/POCO-Phoenix-Red-128GB-Storage/dp/B084R5KHMJ#'">1)Buy AMAZON</button><br><br>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/poco-x2-atlantis-blue-128-gb/p/itm36af4a9c20dd5'">2)Buy FLIPCART</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="images/realme gt neo 2.png"  alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>realme GT NEO 2 </h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        (NEO Blue,12GBRAM,256GB)
+                        <div class="price py-2">
+                          <span>1)MRP:out of stock</span><br>
+                          <span>2)MRP:35,999</span>
+                        </div>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/Realme-Black-12GB-256GB-Storage/dp/B09JLP1S92'">1)Buy AMAZON</button><br><br>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/realme-gt-neo-2-neo-blue-256-gb/p/itmb08e93ffcf5d7?pid=MOBG7H4GHCGJA6TG&lid=LSTMOBG7H4GHCGJA6TG4RZ3S7&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&sattr[]=ram&st=color'">2)Buy FLIPCART</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="images/mi11x5g.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Mi 11X 5G</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        (CosmicBlack,6GBRAM,128GB)
+                        <div class="price py-2">
+                          <span>1)MRP:33,999</span><br>
+                          <span>2)MRP:23,499</span>
+                        </div>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/Renewed-Mi-Cosmic-DisplayMate-AMOLED/dp/B099T2H2DJ'">1)Buy AMAZON</button><br><br>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/mi-11x-5g-cosmic-black-128-gb/p/itmdc6a5f695c609'">2)Buy FLIPCART</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/oneplusnordce5g.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>OnePlus Nord CE 5G</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                           (Blue Void,8GBRAM,128GB)
+                          <div class="price py-2">
+                          <span>1)MRP:24,999</span><br>
+                          <span>2)not avilable</span>
+
+                          </div>
+                           <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/OnePlus-Nord-Blue-128GB-Storage/dp/B095PYTSV8'">1)Buy AMAZON</button><br><br>
+                           <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='#'">2)Buy FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/vivoy20g.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>vivo Y20G</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          (Purist Blue,6GBRAM,128GB)
+                          <div class="price py-2">
+                           <span>1)MRP:18,9990</span><br>
+                           <span>2)MRP:15,990</span>
+                          </div>
+                           <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/Vivo-Y20G-Storage-Additional-Exchange/dp/B08LRD6YM1'">1)Buy AMAZON</button><br><br>
+                           <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/vivo-y20g-purist-blue-128-gb/p/itm4f2cd46459e6c?pid=MOBFZX2GY4KVY6FU&lid=LSTMOBFZX2GY4KVY6FUYQKFLC&marketplace=FLIPKART&sattr[]=color&sattr[]=storage&sattr[]=ram&st=color'">2)Buy FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
+            </div>
+          </section><br><br>
+        <!-- !Top Sale -->
+
+        <!-- Special Price -->
+          <section id="special-price">
+            <div class="container">
+              <h4 class="font-rubik font-size-40">LAPTOPS</h4>
+              <div id="filters" class="button-group text-right font-baloo font-size-16">
+                <button class="btn is-checked" data-filter="*">All Brand</button>
+                <button class="btn" data-filter=".Apple">DELL</button>
+                <button class="btn" data-filter=".Samsung">LENOVO</button>
+                <button class="btn" data-filter=".Redmi">HP</button>
+              </div>
+
+              <div class="grid">
+                <div class="grid-item Apple border">
+                 <div class="item py-2" style="width: 200px;">
+                  <div class="product font-rale">
+                    <a href="#"><img src="images/dell15ryzen5.jpg" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                      <h6>Dell 15 Ryzen5</h6>
+                      <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                      </div>
+                      (black,8GBRAM,512GB)
+                      <div class="price py-2">
+                        <span>1)MRP:78,900</span><br>
+                        <span>2)MRP:83,990</span>
+                      </div>
+                      <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B09F3QCF42/ref=cm_sw_r_apan_glt_fabc_dl_0RWNE6C5KCXAP307VTVD'">1)BUY AMAZON</button><br><br>
+                      <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/IR16qiNNNN'">1)BUY FLIPCART</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="grid-item Samsung border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="images/lenovolegion.jpeg" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Lenovo Legion 5</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       (8GB RAM,1TB HDD,256GB)
+                       <div class="price py-2">
+                         <span>1)MRP:63,990</span><br>
+                         <span>2)MRP:63,990</span>
+                       </div>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B08GG8WCW7/ref=cm_sw_r_apan_glt_fabc_dl_H24QNGS2C17SWBN11087?_encoding=UTF8&psc=1'">1)BUY AMAZON</button><br><br>
+                         <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/Obt9FkNNNN'">1)BUY FLIPCART</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Redmi border">
+                  <div class="item py-2" style="width: 200px;" >
+                   <div class="product font-rale" >
+                     <a href="#"><img src="images/hppavilon14ryzen.jpg" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Hp Pavilon 14 ryzen</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       (8GBRAM,512GB SSD)
+                       <div class="price py-2">
+                         <span>1)MRP:55,990</span><br>
+                        <span>2)MRP:56,990</span>
+                       </div>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/HP-Pavilion-14-inch-Microsoft-14-ec0035AU/dp/B09GDR9KK1'">1)BUY AMAZON</button><br><br>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.flipkart.com/hp-pavilion-ryzen-5-hexa-core-5500u-8-gb-512-gb-ssd-windows-10-home-14-ec0035au-thin-light-laptop/p/itmf7055ef4f789e?pid=COMG67BXZCXUTPG2&lid=LSTCOMG67BXZCXUTPG2DSOVIY&marketplace=FLIPKART&store=search.flipkart.com&srno=b_1_22&otracker=browse&fm=organic&iid=25b8ff1f-e141-456a-b5c9-3f2d45a7615c.COMG67BXZCXUTPG2.SEARCH&ppt=None&ppn=None&ssid=uvsxbxinuo0000001635409524354'">1)BUY FLIPCART</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Apple border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="images/dellvostro.jpg" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Dell vostro 3400</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       (8GB RAM,1TB HDD)
+                       <div class="price py-2">
+                         <span>1)MRP:53,000</span><br>
+                         <span>2)MRP:53,990</span>
+                       </div>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B097T1WN1Y/ref=cm_sw_r_apan_glt_fabc_QSYRTGVSRRS9NV7EF5PZ?_encoding=UTF8&psc=1'">1)BUY AMAZON</button><br><br>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/dl/dell-vostro-core-i5-11th-gen-8-gb-1-tb-hdd-256-gb-ssd-windows-10-3400-thin-light-laptop/p/itmf61c5116d51c7?pid=COMG666GDF86HEWY&cmpid=product.share.pp&_refId=PP.77a68b55-db85-4a4c-95a4-7062b36a437b.COMG666GDF86HEWY&_appId=com.gbwhatsapp'">1)BUY FLIPCART</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Samsung border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="images/lenovaslim3.png" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Lenovo Idea Pad Slim</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       (8GB RAM,1TB HDD)
+                       <div class="price py-2">
+                         <span>1)MRP:37,990</span><br>
+                         <span>2)MRP:37,990</span>
+                       </div>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B0999BTTKZ/ref=cm_sw_r_apan_glt_fabc_dl_S3ZH11P0BQMRGQ4X7MCN'">1)BUY AMAZON</button><br><br>
+                        <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/dl/lenovo-ideapad-3-core-i3-10th-gen-8-gb-1-tb-hdd-windows-10-home-15iml05-thin-light-laptop/p/itm6098abbf35cd9?pid=COMG4WZ7Q2YFJGQ6&cmpid=product.share.pp&_refId=PP.37230727-b4d7-409d-afd5-eb2df7666550.COMG4WZ7Q2YFJGQ6&_appId=com.gbwhatsapp'">1)BUY FLIPCART</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/hp15ryzen3.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Hp 15 ryzen 3</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          (8GB RAM,1TB HDD)
+                          <div class="price py-2">
+                            <span>1)MRP:38,490</span><br>
+                            <span>2)MRP:38,990</span>
+                          </div>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B09FL5CK19/ref=cm_sw_r_apan_glt_fabc_dl_4XJD94R2QQQ1XG47TK0B?_encoding=UTF8&psc=1'">1)BUY AMAZON</button><br><br>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/dl/hp-ryzen-3-dual-core-3250u-8-gb-256-gb-ssd-windows-10-home-15s-gy0501au-thin-light-laptop/p/itmcc3db7767aba4?pid=COMG6MVEA2PWVH3B&cmpid=product.share.pp&_refId=PP.f1261ac4-94d1-47f3-ab20-bef6164f4ef2.COMG6MVEA2PWVH3B&_appId=com.gbwhatsapp'">1)BUY FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/hpchrome.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Hp Chrome Book MT8183</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          (4GB RAM,64GB emmc)
+                          <div class="price py-2">
+                            <span>1)MRP:23,990</span><br>
+                            <span>2)MRP:21,990</span>
+                          </div>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B08WPNPTDD/ref=cm_sw_r_apan_glt_fabc_WKZN0MH0RGQ9V3MW55BD'">1)BUY AMAZON</button><br><br>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/axGhjpuuuN'">1)BUY FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/hp14s.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Hp 14S core i5</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          (8GB RAM,512GB SSD)
+                          <div class="price py-2">
+                            <span>1)MRP:54,940</span><br>
+                            <span>2)MRP:54,990</span>
+                          </div>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B0928NL6F3/ref=cm_sw_r_apan_glt_fabc_dl_MHNXE7JFNANMWJ80GYSP?_encoding=UTF8&psc=1'">1)BUY AMAZON</button><br><br>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/OvXLY1NNNN'">1)BUY FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/hpintel15.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Hp 15 intel core i5</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          (8GB,512GB SSD)
+                          <div class="price py-2">
+                             <span>1)MRP:54,999</span><br>
+                             <span>2)MRP:54,990</span>
+                          </div>
+                             <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B08XNZD56X/ref=cm_sw_r_apan_glt_fabc_8XVNB20KMDYEXZ4YNQ35'">1)BUY AMAZON</button><br><br>
+                             <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/OvkLakNNNN'">1)BUY FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item Apple border  " >
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="images/dellinspiron3501.jpg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Dell Inspiron 3501</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          (4GB RAM,256 ssd)
+                          <div class="price py-2">
+                             <span>1)MRP:38,490</span><br>
+                             <span>2)MRP:38,490,000</span>
+                          </div>
+                             <button type="submit" class="btn btn-warning font-size-12" onclick="window.loaction.href='https://www.amazon.in/dp/B08MQ67ZX3/ref=cm_sw_r_apan_glt_fabc_dl_N01A3D2RMST1T0CQAQFE'">1)BUY AMAZON</button><br><br>
+                             <button type="submit" class="btn btn-warning font-size-12" onclick="window.loaction.href='https://dl.flipkart.com/dl/dell-inspiron-core-i3-10th-gen-4-gb-256-gb-ssd-windows-10-home-3501-laptop/p/itm997ad4a2b302f?pid=COMFYZC5RJ2TH2ZZ&cmpid=product.share.pp&_refId=PP.313fbe17-a0d8-4139-aff4-c8e43ac9fdcf.COMFYZC5RJ2TH2ZZ&_appId=com.gbwhatsapp'">1)BUY FLIPCART</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- !Special Price -->
+
+        <!-- Banner Ads  -->
+          <section id="banner_adds">
+            <div class="container py-5 text-center">
+              <img src="images/offerbanner1.jpg" alt="banner1" class="img-fluid" width="70%" height="500px">
+              <img src="images/offerbanner2.jpg" alt="banner1" class="img-fluid" width="70%" height="500px">
+            </div>
+          </section>
+        <!-- !Banner Ads  -->
+
+          <!-- New Phones -->
+          <section id="new-phones">
+            <div class="container">
+              <h4 class="font-rubik font-size-40">TV'S</h4>
+              <hr>
+
+                    <!-- owl carousel -->
+                    <div class="owl-carousel owl-theme">
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="images/mi4a32.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Mi 4a Pro TV</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            (32 inch,LED HD smart TV)
+                            <div class="price py-2">
+                              <span>1)MRP:14,999</span><br>
+                              <span>2)MRP:14,999</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B084872DQY/ref=cm_sw_r_apan_glt_fabc_dl_KN3N1JX0WA1KT89KCF14'">BUY AMAZON</button><br><br>
+                            <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/OKKRP1NNNN'">BUY FLIPCART</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="images/mi4ahorizon.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Mi 4A Horizon Edition</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            (40 inch,LED HD Smart TV)
+                            <div class="price py-2">
+                               <span>1)MRP:21,990</span><br>
+                               <span>2)MRP:21,999</span>
+                            </div>
+                               <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B09HQSV46W/ref=cm_sw_r_apan_glt_fabc_dl_3TKXCAT9NYRA8GWBKJWG'">BUY AMAZON</button><br><br>
+                               <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/OjBofiNNNN'">BUY FLIPCART</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="images/haier.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Haier Bazel TV</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            (43 inch,Less Android TV)
+                            <div class="price py-2">
+                               <span>1)MRP:30,400</span><br>
+                               <span>2)MRP:30,490</span>
+                            </div>
+                               <button type="submit" class="btn btn-warning font-size-12" onclick="window.loaction.href=''">BUY AMAZON</button><br><br>
+                               <button type="submit" class="btn btn-warning font-size-12" onclick="window.loaction.href=''">BUY FLIPCART</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="images/oneplusyseries.jpeg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>One plus Y series</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            (32 inch,LED SmartTV)
+                            <div class="price py-2">
+                               <span>1)MRP:15,999</span><br>
+                               <span>2)MRP:15,999</span>
+                            </div>
+                               <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B08B42LWKN/ref=cm_sw_r_apan_glt_fabc_dl_HJBRCPV31DASB3RADPX6'">BUY AMAZON</button><br><br>
+                               <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/dl/oneplus-y-series-80-cm-32-inch-hd-ready-led-smart-android-tv/p/itme650a6bb8cee3?pid=TVSFVWD2ENXYGEJY&cmpid=product.share.pp&_refId=PP.4ca5c9c8-bc08-4ec1-b4d5-8334b2a36b90.TVSFVWD2ENXYGEJY&_appId=com.gbwhatsapp'">BUY FLIPCART</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="images/oneplususeries.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>One plus U Series 4k TV</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            (50 inch,4K SmartTV)
+                            <div class="price py-2">
+                               <span>1)MRP:43,999</span><br>
+                               <span>2)MRP:43,999</span>
+                            </div>
+                              <button type="submit" class="btn btn-warning font-size-12" onclick="window.loaction.href='https://www.amazon.in/dp/B095JQ8LVB/ref=cm_sw_r_apan_glt_fabc_dl_RHY6AW9T5N31DQB66R82'">BUY AMAZON</button><br><br>
+                              <button type="submit" class="btn btn-warning font-size-12" onclick="window.loaction.href='https://dl.flipkart.com/s/OHP6viNNNN'">BUY FLIPCART</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="images/samsungcrystal.jpg" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                              <h6>Samsung Crystal 4K TV</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              (50 inch,4K Smart TV)
+                              <div class="price py-2">
+                                 <span>1)MRP:48,990</span><br>
+                                 <span>2)MRP:48,990</span>
+                              </div>
+                                  <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B092B6R27Y/ref=cm_sw_r_apan_glt_fabc_dl_TZF28X1JYCS0SMC4CB3S'">BUY AMAZON</button><br><br>
+                                  <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/s/ai3FdpuuuN'">BUY FLIPCART</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="images/lg4k.jpg" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                              <h6>LG Ultra HD 4K</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              (43 inch,Ultra Hd 4K TV)
+                              <div class="price py-2">
+                                  <span>1)MRP:37,499</span><br>
+                                  <span>2)MRP:37,499</span>
+                              </div>
+                                  <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://www.amazon.in/dp/B0967NW34T/ref=cm_sw_r_apan_glt_fabc_dl_BA8R5EHQ6Q0SNWS6RST1'">BUY AMAZON</button><br><br>
+                                  <button type="submit" class="btn btn-warning font-size-12" onclick="window.location.href='https://dl.flipkart.com/dl/lg-108-cm-43-inch-ultra-hd-4k-led-smart-tv/p/itmfe3445cd6a02d?pid=TVSG3UW37YDGSHXY&cmpid=product.share.pp&_refId=PP.711eda0a-4d38-46fb-bb11-3270c8c06706.TVSG3UW37YDGSHXY&_appId=com.gbwhatsapp'">BUY FLIPCART</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- !owl carousel -->
+
+            </div>
+          </section>
+          <!-- !New Phones -->
+
+          <!-- Blogs -->
+            <section id="blogs">
+              <div class="container py-4">
+                <h4 class="font-rubik font-size-40">Offer Coupen Zone</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-30">Free%%Coupen Mobiles</h5>
+                      <img src="images/mobilecoupen.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">We offering a coupen for a customer to refer a products to other customer.The coupen is used to discount a buying products."Do not Dely take Fast".</p>
+                      <a href="login.html" class="color-second text-left">Get Offer</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-30">Free%%Coupen Laptops</h5>
+                      <img src="images/laptopcoupen.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">We offering a coupen for a customer to refer a products to other customer.The coupen is used to discount a buying products."Do not Dely take Fast".</p>
+                      <a href="login.html" class="color-second text-left">Get Offer</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-30">Free%%Coupen TV'S</h5>
+                      <img src="images/tvcoupen.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">We offering a coupen for a customer to refer a products to other customer.The coupen is used to discount a buying products."Do not Dely take Fast".</p>
+                      <a href="login.html" class="color-second text-left">Get Offer</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          <!-- !Blogs -->
+
+        </main>
+    <!-- !start #main-site -->
+
+    <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">ShopExp</h4>
+                <p class="font-size-14 font-rale text-white-50">ShopExp is one Tap to buy a product with less time duration and best quality product to customers.The multi online  platform product available with best offers.</p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newslatter</h4>
+                <form class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email *">
+                  </div>
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newslatters</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Copyrights 2021. Desing By <a href="#" class="color-second">ShopExp</a></p>
+        </div>
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
